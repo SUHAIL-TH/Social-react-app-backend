@@ -16,7 +16,7 @@ app.use(cors());
 app.use('/posts',postRoutes)
 
 const Connection_URL =
-  "mongodb+srv://suhail:SUHAILTH@cluster0.os8qbe6.mongodb.net/socialapp";
+
 const PORT = process.env.PORT || 5000;
 
 mongoose
