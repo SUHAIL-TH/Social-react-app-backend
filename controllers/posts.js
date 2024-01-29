@@ -36,5 +36,6 @@ res.json(updatedpost)
 
 export default{
     getPost,
-    createPost
+    createPost,
+    updatePost
 }
